@@ -1,0 +1,39 @@
+About the Data: sourced from CBP via subscription. 
+Includes: 
+    - Manufacturers
+    - Shipper Contact Details
+    - Vessel Country Codes 
+    - Carriers
+    - Cargo Description
+    - HTS codes 
+
+Important Values: 
+    - Shipper name and address
+    - Vessel country code
+    - Carriers
+    - Cargo descriptions
+    - HTS codes
+    - Consignees
+    - Notified parties
+    - The value and weight of shipments
+    - Container marks and numbers
+    - Hazardous material classification and descriptions including uranium
+
+Table Names:
+    - Bill of Lading Headers                          (header)  
+    - General Bill Information                        (billgen)
+    - Shippers                                        (shipper)
+    - Shipment Consignees                             (consignee)
+    - Notified Parties                                (notifyparty)
+    - Cargo Descriptions                              (cargodesc)
+    - Containers                                      (container)
+    - Marks and Numbers                               (marksnumbers)
+    - Tariff codes                                    (tariff)
+    - Toxic and Hazardous Materials                   (hazmat)
+    - Toxic and Hazardous Materials Classification    (hazmatclass)
+
+
+
+Current Data State: 
+    - Very Redundant
+
